@@ -1,0 +1,114 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #f3e5f5 0%, #e1bee7 100%);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.header h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.header p {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 10px 0 0;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-group label {
+  font-size: 18px;
+  color: #333;
+}
+
+.form-group input[type="file"] {
+  margin-top: 10px;
+  border: 2px solid #8e2de2;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #333;
+}
+
+.btn-gradient {
+  background: linear-gradient(to right, #4a00e0, #8e2de2);
+  color: #8e2de2;
+  font-size: 18px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  border-color: #8e2de2;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(to right, #4a00e0, #8e2de2);
+  
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.result-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.result-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.result-container h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.result-container h2 span {
+  font-weight: bold;
+  color: #8e2de2;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+}
